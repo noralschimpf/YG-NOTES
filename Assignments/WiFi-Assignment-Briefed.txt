@@ -1,0 +1,28 @@
+PW: sunflower
+
+term1: colosseumcli rf start 1009 -c
+  verify: colosseumcli rf info
+  
+  
+Verify RF Emulator setup
+term1: cd /root/utils & ./uhd_tx_tone.sh
+term2: cd /root/utils & ./uhd_tx_tone.sh
+- optional: edit both tx/rx .sh center freqs (.99GHz, .9GHz) & Compare
+
+
+Start WiFi Nodes
+term1: cd /root/interactive_scripts & ./tap_setup.sh & ./route_setup.sh 192
+term1:  cd /root/interactive_scripts & ./tap_setup.sh & ./route_setup.sh 194
+term3: ssh root@gladiators-092 & ping 192.168.194.1
+term4: ssh root@gladiators-094 & ping 192.168.192.1
+
+Start TGEN
+term1: colosseumcli tg start 10090
+  verify: colosseumcli tg info
+term1: tcpdump -i tr0
+term2: tcpdump -i tr0
+
+CLEANUP (all terms)
+colosseumcli tg stop
+colosseumcli rf stop
+exit

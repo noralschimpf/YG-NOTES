@@ -1,0 +1,76 @@
+EPC/ENB
+term1:gladiators-52
+term1:gladiators-52
+UE
+term2:gladiators-53
+ssh root@gladiators-XX	ChangeMe
+
+Set RF Scenario
+term1: colosseumcli rf start 1009 -c & colosseumcli rf info
+
+
+
+
+
+Config Cellular Nodes
+
+nano /root/radio_code/srslte_config/enb.conf
+[rf]
+dl_earfcn = 3400
+ul_freq = 1005000000
+dl_freq = 995000000
+tx_gain = 20
+rx_gain = 20
+
+time_adv_nsamples = 100
+
+
+cat /root/radio_code/srslte_config/user_db.csv
+
+nano /root/radio_code/srslte_config/ue.conf
+[usim]
+mode = soft
+algo = mil
+opc  = 63bfa50ee6523365ff14c1f45f88737d
+k    = 00112233445566778899aabbccddeeff
+imsi = 001010123456780
+imei = 353490069873310 # may leave as-is
+
+[nas]
+apn = colosseum
+
+[rf]
+dl_earfcn = 3400
+ul_freq = 1005000000
+dl_freq = 995000000
+freq_offset = 0
+tx_gain = 20
+rx_gain = 20
+time_adv_nsamples = 100
+
+
+
+
+# Start the cellular nodes
+
+term1: cd /root/radio_code/srslte_config & srsepc epc.conf
+term2: cd /root/radio_code/srslte_config & srsenb enb.conf
+term3: cd /root/radio_code/srslte_config & srsue ue.conf
+
+
+
+EXCHANGE TRAFFIC BETWEEN ENB AND UE
+term4 (ENB): ping 172.16.0.2
+term5 (UE): ping 172.16.0.1
+
+term5: iperf3 -s
+term4: iperf3 -c 172.16.0.2
+	vary: (add -u for UDP, set -b 0.5M, 2M, 5M)
+
+
+
+
+OPTIONAL
+1. configure 2 wifi nodes to run as well, same DL centerfreq.
+2. ENB-> via iperf3
+3. how are technologies impacted?
