@@ -1,0 +1,101 @@
+For more information the listed scenarios use the link below:
+
+http://sc2colosseum.pbworks.com/w/page/Scenarios
+
+
++-------------+---------------------------------------------------------+-----------------+------------------+----------+
+| Scenario ID | Title                                                   | Number of Nodes | Center Frequency | Cyclable |
++-------------+---------------------------------------------------------+-----------------+------------------+----------+
+| 9971        | 50Db Loss                                               |               5 | 1000000000       | True     |
+| 9972        | 70Db Loss                                               |               5 | 1000000000       | True     |
+| 9973        | 90Db Loss                                               |               5 | 1000000000       | True     |
+| 20036       | Tap test NLOS debug                                     |               4 | 1000000000       | True     |
+| 20037       | Tap test LOS                                            |               4 | 5220000000       | True     |
+| 1109        | All Paths 0dB (5.21 GHz)                                |              10 | 5210000000       | True     |
+| 10017       | All Paths 0dB                                           |               2 | 3521280000       | True     |
+| 10011       | All Paths 0dB                                           |              10 | 3600000000       | True     |
+| 20600       | linear-60                                               |               2 | 1000000000       | True     |
+| 21600       | log-60                                                  |               2 | 1000000000       | True     |
+| 20201       | fixed20neg                                              |               2 | 1000000000       | True     |
+| 20402       | fixed40null                                             |               2 | 1000000000       | True     |
+| 10027       | Edge cases                                              |               4 | 1000000000       | True     |
+| 16050       | lora-60db-50nodes                                       |              50 | 1000000000       | True     |
+| 18050       | lora-80db-50nodes                                       |              50 | 1000000000       | True     |
+| 12349       | Anechoic chamber (+40db boost)                          |              12 | 1000000000       | True     |
+| 12353       | Anechoic chamber (+80db boost + gains)                  |              12 | 1000000000       | True     |
+| 12050       | lora-20db-50nodes                                       |              50 | 1000000000       | True     |
+| 15050       | lora-50db-50nodes                                       |              50 | 1000000000       | True     |
+| 13202       | LoRa scenario 2                                         |              32 | 1000000000       | True     |
+| 2040        | Static single-tap scenario with 10 nodes and 40 dB loss |              10 | 1000000000       | True     |
+| 2090        | Static single-tap scenario with 10 nodes and 90 dB loss |              10 | 1000000000       | True     |
+| 2010        | Static single-tap scenario with 10 nodes and 10 dB loss |              10 | 1000000000       | True     |
+| 2050        | Static single-tap scenario with 10 nodes and 50 dB loss |              10 | 1000000000       | True     |
+| 13204       | LoRa scenario 4                                         |              32 | 1000000000       | True     |
+| 90000       | Single tap 0dB 32 nodes                                 |              32 | 1000000000       | True     |
+| 20052       | Directional 3 (11 nodes) - 3.6 GHz                      |              11 | 3600000000       | True     |
+| 9991        | SCE CIL Qualification - Easy 13db Staring Pathloss      |              56 | 1000000000       | False    |
+| 1009        | All Paths 0dB                                           |              10 | 1000000000       | False    |
+| 12345       | Tap test                                                |               4 | 1000000000       | False    |
+| 21400       | log-40                                                  |               2 | 1000000000       | False    |
+| 21200       | log-20                                                  |               2 | 1000000000       | False    |
+| 20401       | fixed40neg                                              |               2 | 1000000000       | False    |
+| 20602       | fixed60null                                             |               2 | 1000000000       | False    |
+| 20002       | 0db                                                     |               2 | 1000000000       | False    |
+| 50001       | CV2X-WIFI Coexistence + 50 dB                           |               6 | 1000000000       | False    |
+| 17050       | lora-70db-50nodes                                       |              50 | 1000000000       | False    |
+| 10091       | All Paths 0dB                                           |              10 | 1000000000       | False    |
+| 12348       | Anechoic Chamber (+20db boost)                          |              12 | 1000000000       | False    |
+| 12351       | Anechoic chamber (+40db boost + gains)                  |              12 | 1000000000       | False    |
+| 12352       | Anechoic chamber (+60db boost + gains)                  |              12 | 1000000000       | False    |
+| 11050       | lora-10db-50nodes                                       |              50 | 1000000000       | False    |
+| 14050       | lora-40db-50nodes                                       |              50 | 1000000000       | False    |
+| 13201       | LoRa scenario 1                                         |              32 | 1000000000       | False    |
+| 2020        | Static single-tap scenario with 10 nodes and 20 dB loss |              10 | 1000000000       | False    |
+| 2070        | Static single-tap scenario with 10 nodes and 70 dB loss |              10 | 1000000000       | False    |
+| 20050       | Directional 1 - 1 GHz                                   |               5 | 1000000000       | False    |
+| 10015       | Alleys of Austin: SCE                                   |              50 | 1000000000       | False    |
+| 1017        | Rome close static (SCOPE)                               |              50 | 1000000000       | False    |
+| 1018        | Rome close moderate mobility (SCOPE)                    |              50 | 1000000000       | False    |
+| 1025        | POWDER close static (SCOPE)                             |              40 | 1000000000       | False    |
+| 1026        | POWDER close moderate mobility (SCOPE)                  |              40 | 1000000000       | False    |
+| 1031        | Boston close static (SCOPE)                             |              50 | 1000000000       | False    |
+| 1033        | Boston close moderate mobility (SCOPE)                  |              50 | 1000000000       | False    |
+| 1035        | Rome medium static (SCOPE)                              |              50 | 1000000000       | False    |
+| 1041        | POWDER medium static (SCOPE)                            |              40 | 1000000000       | False    |
+| 1036        | Boston medium static (SCOPE)                            |              50 | 1000000000       | False    |
+| 1019        | Rome far static (SCOPE)                                 |              50 | 1000000000       | False    |
+| 1027        | POWDER far static (SCOPE)                               |              40 | 1000000000       | False    |
+| 1024        | Boston far static (SCOPE)                               |              50 | 1000000000       | False    |
+| 10024       | All Paths 0dB                                           |              10 | 2400000000       | False    |
+| 10009       | All Paths 0dB                                           |              25 | 1000000000       | False    |
+| 7014        | Alleys of Austin (4 taps)                               |              50 | 1000000000       | False    |
+| 20020       | Tap test LOS debug                                      |               4 | 1000000000       | False    |
+| 13203       | LoRa scenario 3                                         |              32 | 1000000000       | False    |
+| 2060        | Static single-tap scenario with 10 nodes and 60 dB loss |              10 | 1000000000       | False    |
+| 13205       | LoRa scenario 5                                         |              32 | 1000000000       | False    |
+| 20051       | Directional 2 - 3.6 GHz                                 |               5 | 3600000000       | False    |
+| 20038       | Tap test NLOS                                           |               4 | 5220000000       | False    |
+| 10016       | All Paths 0dB                                           |               2 | 3521280000       | False    |
+| 10021       | All Paths 0dB                                           |              10 | 3521280000       | False    |
+| 7013        | Alleys of Austin (single tap)                           |              50 | 1000000000       | False    |
+| 10012       | All Paths 0dB                                           |              10 | 2593350000       | False    |
+| 20400       | linear-40                                               |               2 | 1000000000       | False    |
+| 20200       | linear-20                                               |               2 | 1000000000       | False    |
+| 20202       | fixed20null                                             |               2 | 1000000000       | False    |
+| 20601       | fixed60neg                                              |               2 | 1000000000       | False    |
+| 20001       | 0db                                                     |               2 | 1000000000       | False    |
+| 5000        | CV2X-WIFI Coexistence                                   |               6 | 1000000000       | False    |
+| 19050       | lora-90db-50nodes                                       |              50 | 1000000000       | False    |
+| 12350       | Anechoic Chamber (+20db boost + gains)                  |              12 | 1000000000       | False    |
+| 50050       | lora-0db-50nodes                                        |              50 | 1000000000       | False    |
+| 12354       | Anechoic chamber (+40db boost 3-taps)                   |              12 | 1000000000       | False    |
+| 13050       | lora-30db-50nodes                                       |              50 | 1000000000       | False    |
+| 90001       | Channel Sounding Test 1                                 |               5 | 1000000000       | False    |
+| 2000        | Static single-tap scenario with 10 nodes and 0 dB loss  |              10 | 1000000000       | False    |
+| 2030        | Static single-tap scenario with 10 nodes and 30 dB loss |              10 | 1000000000       | False    |
+| 2080        | Static single-tap scenario with 10 nodes and 80 dB loss |              10 | 1000000000       | False    |
+| 12356       | Anechoic Chamber (3 uavs + 3 fixed UEs) (+60dB gain)    |              15 | 1000000000       | False    |
+| 13300       | All paths 0dB - 832 MHz                                 |              10 | 832000000        | False    |
+| 33001       | DNC Factory                                             |              50 | 1000000000       | False    |
+| 9988        | SCE Formal Qualification                                |              10 | 1000000000       | False    |
++-------------+---------------------------------------------------------+-----------------+------------------+----------+

@@ -1,0 +1,96 @@
++-------------+---------------------------------------------------------+
+| Scenario ID | Description                                             |
++-------------+---------------------------------------------------------+
+| 204020      | fixed40null                                             |
+| 10090       | All Paths 0dB                                           |
+| 123500      | Anechoic Chamber (+20db boost + gains)                  |
+| 132020      | LoRa scenario 2                                         |
+| 200520      | Directional 3 (11 nodes) - 3.6 GHz                      |
+| 180500      | lora-80db-50nodes                                       |
+| 20800       | Static single-tap scenario with 10 nodes and 80 dB loss |
+| 202020      | fixed20null                                             |
+| 202010      | fixed20neg                                              |
+| 100090      | All Paths 0dB                                           |
+| 140500      | lora-40db-50nodes                                       |
+| 99721       | 70Db Loss                                               |
+| 900000      | Single tap 0dB 32 nodes                                 |
+| 500500      | lora-0db-50nodes                                        |
+| 50000       | CV2X-WIFI Coexistence                                   |
+| 100160      | All Paths 0dB                                           |
+| 123530      | Anechoic chamber (+80db boost + gains)                  |
+| 20100       | Static single-tap scenario with 10 nodes and 10 dB loss |
+| 200020      | 0db                                                     |
+| 200360      | Tap test NLOS debug                                     |
+| 10240       | Northeastern no mobility (far)                          |
+| 123540      | Anechoic chamber (+40db boost 3-taps)                   |
+| 99731       | 90Db Loss                                               |
+| 70130       | Alleys of Austin                                        |
+| 200500      | Directional 1 - 3.6 GHz                                 |
+| 330010      | DNC Factory                                             |
+| 10170       | Rome no mobility (close)                                |
+| 500010      | CV2X-WIFI Coexistence + 50 dB                           |
+| 132040      | LoRa scenario 4                                         |
+| 100270      | Edge cases                                              |
+| 110500      | lora-10db-50nodes                                       |
+| 10270       | POWDER no mobility (far)                                |
+| 100110      | All Paths 0dB                                           |
+| 99910       | SCE CIL Qualification - Easy 13db Staring Pathloss      |
+| 10410       | POWDER no mobility (medium)                             |
+| 100240      | All Paths 0dB                                           |
+| 170500      | lora-70db-50nodes                                       |
+| 130500      | lora-30db-50nodes                                       |
+| 133000      | All paths 0dB - 832 MHz                                 |
+| 160500      | lora-60db-50nodes                                       |
+| 100170      | All Paths 0dB                                           |
+| 123480      | Anechoic Chamber (+20db boost)                          |
+| 132010      | LoRa scenario 1                                         |
+| 200510      | Directional 2 - 3.6 GHz                                 |
+| 150500      | lora-50db-50nodes                                       |
+| 10350       | Rome no mobility (medium)                               |
+| 190500      | lora-90db-50nodes                                       |
+| 10260       | POWDER low mobility                                     |
+| 200200      | Tap test LOS debug                                      |
+| 10250       | POWDER no mobility (close)                              |
+| 10190       | Rome no mobility (far)                                  |
+| 100120      | All Paths 0dB                                           |
+| 132030      | LoRa scenario 3                                         |
+| 123520      | Anechoic chamber (+60db boost + gains)                  |
+| 99711       | 50Db Loss                                               |
+| 20600       | Static single-tap scenario with 10 nodes and 60 dB loss |
+| 214000      | log-40                                                  |
+| 216000      | log-60                                                  |
+| 100210      | All Paths 0dB                                           |
+| 20300       | Static single-tap scenario with 10 nodes and 30 dB loss |
+| 100910      | All Paths 0dB                                           |
+| 212000      | log-20                                                  |
+| 20200       | Static single-tap scenario with 10 nodes and 20 dB loss |
+| 20900       | Static single-tap scenario with 10 nodes and 90 dB loss |
+| 120500      | lora-20db-50nodes                                       |
+| 20500       | Static single-tap scenario with 10 nodes and 50 dB loss |
+| 202000      | linear-20                                               |
+| 11090       | All Paths 0dB (5.21 GHz)                                |
+| 20400       | Static single-tap scenario with 10 nodes and 40 dB loss |
+| 10310       | Northeastern no mobility (close)                        |
+| 200010      | 0db                                                     |
+| 20700       | Static single-tap scenario with 10 nodes and 70 dB loss |
+| 10330       | Northeastern low mobility                               |
+| 206000      | linear-60                                               |
+| 10360       | Northeastern no mobility (medium)                       |
+| 20000       | Static single-tap scenario with 10 nodes and 0 dB loss  |
+| 200370      | Tap test LOS                                            |
+| 100150      | Alleys of Austin: SCE                                   |
+| 10180       | Rome low mobility                                       |
+| 204000      | linear-40                                               |
+| 123510      | Anechoic chamber (+40db boost + gains)                  |
+| 123450      | Tap test                                                |
+| 206010      | fixed60neg                                              |
+| 900010      | Channel Sounding Test 1                                 |
+| 204010      | fixed40neg                                              |
+| 206020      | fixed60null                                             |
+| 132050      | LoRa scenario 5                                         |
+| 200380      | Tap test NLOS                                           |
+| 99880       | TODO                                                    |
+| 123560      | Anechoic Chamber (3 uavs + 3 fixed UEs) (+60dB gain)    |
+| 70140       | Alleys of Austin                                        |
+| 123490      | Anechoic chamber (+40db boost)                          |
++-------------+---------------------------------------------------------+
