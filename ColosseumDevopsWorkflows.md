@@ -1,7 +1,7 @@
 # Colosseum Devops Workflows (as designed by Dilenium for DARPA SC)
 *Dr. Bob Baxley, long history w/ CRN/SDR (Zylenium)*
 
-##DARPA SCs:
+## DARPA SCs:
 * first on Winlab (Rice?)
 * SC2 grand challenge: Colosseum designed for this
 * initially, zero documentation, auoomation, etc......
@@ -28,7 +28,7 @@
 * Developing in tableu. no-code, extremely powerful & easy to build large-scale dashboards
 
 
-# DevOps for Colosseum
+## DevOps for Colosseum
 * Robust development flow. philosophies, practices, and tools to improve development pace
 * "aws for RF": protected, reliable infrastructure that requires high control.
 * Process
@@ -43,7 +43,7 @@
   3. Release
   
   
-# Lessons Learned
+## Lessons Learned
 1. **Do not invent conventions**: doesn't matter if another approach is inferior, it is easier and more sustainable
   a. always check for the object before trying to make it
  2. if you've done a multi-step process 3+ times, automate it
@@ -52,27 +52,27 @@
  4. run your tests locally, as much as possible, before RF-in-loop (pytest)
  5. scripting applies to capture log data as well
  
-# Tools
+## Tools
 
-## Ansible - baseline for script automating
+#### Ansible - baseline for script automating
 Declarative, scripting language. infrastructure as code
 * conventions already exist
 * gitlab.com/zylinium-pub/colosseum-cm 
 
-## Jinja - Templating
+#### Jinja - Templating
 * (llink)[palletsprojects.com/[/jinja]
 * hard to parse somehwat, easy to configure & integrate with ansible
 
-## Airflow
+#### Airflow
 * manages database building, dashboard building, slack messages, .....
 * Visual interface for workflow, jobs status, etc.....
 
-## ElasticSearch - Data sotre (or PostGres)
+#### ElasticSearch - Data sotre (or PostGres)
 - not schema-based. push experiment data to, directly build simple dashboards
 
-## Kibana - web-based visualization (Free!)
+#### Kibana - web-based visualization (Free!)
 
-## Tableu - visualization (~1k license)
+#### Tableu - visualization (~1k license)
 * needs rigid, SQL database
 
 Automation: time saves v requires
